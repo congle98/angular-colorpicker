@@ -1,0 +1,7 @@
+<select [(ngModel)]="mau">
+    <option *ngFor="let color of listColor">{{color}}</option>
+</select>
+
+<div style="width: 400px; height: 400px;"  [style.background-color]="mau">
+
+</div>
